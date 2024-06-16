@@ -5,7 +5,6 @@ channels:
   - defaults
 dependencies:
   - open-clip-torch
-  - cudatoolkit=11.6
   - plyfile=0.8.1
   - python=3.7.13
   - pip=22.3.1
@@ -19,7 +18,3 @@ dependencies:
   - matplotlib
   - typing
   - pathlib
-  - pip:
-    - submodules/segment-anything-langsplat
-    - submodules/langsplat-rasterization
-    - submodules/simple-knn
